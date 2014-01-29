@@ -1,4 +1,4 @@
--- | Provides a function that converts exisiting HUnit test to a TestTree that
+-- | Provides a function that converts exisiting HUnit tests to a TestTree that
 -- can be used with tasty testing framework. Example usage:
 --
 --  > module Main where

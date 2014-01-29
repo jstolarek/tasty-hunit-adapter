@@ -2,7 +2,7 @@ tasty-hunit-adapter
 ===================
 
 This package provides a function that converts exisiting [HUnit]
-(http://hackage.haskell.org/package/HUnit) test to TestTree that can
+(http://hackage.haskell.org/package/HUnit) tests to TestTree that can
 be used by [tasty](http://hackage.haskell.org/package/tasty) testing
 framework. Code is adapted from [test-framework-hunit]
 (http://hackage.haskell.org/package/test-framework-hunit) package
