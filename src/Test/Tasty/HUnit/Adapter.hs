@@ -1,5 +1,5 @@
--- | Provides a function that converts exisiting HUnit tests to a TestTree that
--- can be used with tasty testing framework. Example usage:
+-- | Provides a function that converts exisiting HUnit tests to a TestTree
+-- list that can be used with tasty testing framework. Example usage:
 --
 --  > module Main where
 --  >
@@ -18,8 +18,7 @@ import qualified Test.HUnit.Base  as HUB
 import qualified Test.Tasty       as TF
 import qualified Test.Tasty.HUnit as TFH
 
--- | Convert existing HUnit test to a TestTree list that can be used with tasty
--- package.
+-- | Convert existing HUnit test to a TestTree list that can be used with tasty.
 hUnitTestToTestTree :: HUB.Test -> [TF.TestTree]
 hUnitTestToTestTree = go ""
   where
