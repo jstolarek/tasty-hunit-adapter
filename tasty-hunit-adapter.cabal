@@ -2,9 +2,9 @@ name:                tasty-hunit-adapter
 version:             1.0
 synopsis:            Use existing HUnit tests with tasty
 description:         This package provides a function that converts exisiting
-                     HUnit test to a TestTree that can be used by Tasty testing
-                     framework. Code is adapted from test-framework-hunit
-                     package authored by Max Bolingbroke.
+                     HUnit test to a TestTree that can be used with tasty
+                     testing framework. Code is adapted from
+                     test-framework-hunit package authored by Max Bolingbroke.
 homepage:            https://github.com/jstolarek/tasty-hunit-adapter
 bug-reports:         https://github.com/jstolarek/tasty-hunit-adapter/issues
 license:             BSD3

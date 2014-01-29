@@ -1,3 +1,15 @@
+-- | Provides a function that converts exisiting HUnit test to a TestTree that
+-- can be used with tasty testing framework. Example usage:
+--
+--  > module Main where
+--  >
+--  > import Test.HUnit               ( (~:), (@=?)            )
+--  > import Test.Tasty               ( defaultMain, testGroup )
+--  > import Test.Tasty.HUnit.Adapter ( hUnitTestToTestTree    )
+--  >
+--  > main :: IO ()
+--  > main = defaultMain $ testGroup "Migrated from HUnit" $
+--  >                      hUnitTestToTestTree ("HUnit test" ~: 2 + 2 @=? 4)
 module Test.Tasty.HUnit.Adapter (
    hUnitTestToTestTree
  ) where
@@ -6,8 +18,8 @@ import qualified Test.HUnit.Base  as HUB
 import qualified Test.Tasty       as TF
 import qualified Test.Tasty.HUnit as TFH
 
--- | Convert existing HUnit test to a TestTree list that can be passed to
--- TestGroup. Addapted from test-framework-hunit.
+-- | Convert existing HUnit test to a TestTree list that can be used with tasty
+-- package.
 hUnitTestToTestTree :: HUB.Test -> [TF.TestTree]
 hUnitTestToTestTree = go ""
   where
