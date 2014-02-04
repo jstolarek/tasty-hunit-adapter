@@ -8,6 +8,9 @@ framework. Code is adapted from [test-framework-hunit]
 (http://hackage.haskell.org/package/test-framework-hunit) package
 authored by Max Bolingbroke.
 
+You can download latest stable release from
+[Hackage](http://hackage.haskell.org/package/tasty-hunit-adapter)
+
 ## Example
 
 ```haskell
