@@ -17,7 +17,7 @@ maintainer:          jan.stolarek@p.lodz.pl
 stability:           stable
 category:            Testing
 build-type:          Simple
-extra-source-files:  README.md
+extra-source-files:  README.md, CHANGELOG.md
 cabal-version:       >=1.10
 tested-with:         GHC>=7.6.3
 extra-source-files:  README.md
