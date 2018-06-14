@@ -1,6 +1,8 @@
 tasty-hunit-adapter
 ===================
 
+**IMPORTANT:** This repository is now [hosted on BitBucket](https://bitbucket.org/jstolarek/tasty-hunit-adapter).
+
 This package provides a function that converts exisiting
 [HUnit](http://hackage.haskell.org/package/HUnit) tests to TestTree that can
 be used by [tasty](http://hackage.haskell.org/package/tasty) testing
