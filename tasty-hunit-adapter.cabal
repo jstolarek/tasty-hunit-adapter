@@ -8,8 +8,8 @@ description:         This package provides a function that converts exisiting
                      framework. Code is adapted from
                      <http://hackage.haskell.org/package/test-framework-hunit test-framework-hunit>
                      package authored by Max Bolingbroke.
-homepage:            https://github.com/jstolarek/tasty-hunit-adapter
-bug-reports:         https://github.com/jstolarek/tasty-hunit-adapter/issues
+homepage:            https://bitbucket.com/jstolarek/tasty-hunit-adapter
+bug-reports:         https://bitbucket.com/jstolarek/tasty-hunit-adapter/issues
 license:             BSD3
 license-file:        LICENSE
 author:              Jan Stolarek
@@ -24,7 +24,7 @@ extra-source-files:  README.md
 
 source-repository head
    type:     git
-   location: git://github.com/jstolarek/tasty-hunit-adapter.git
+   location: git://bitbucket.com/jstolarek/tasty-hunit-adapter.git
 
 library
   exposed-modules:     Test.Tasty.HUnit.Adapter
